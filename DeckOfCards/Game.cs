@@ -8,7 +8,7 @@ namespace DeckOfCards
 {
     public class Game
     {
-        public MyCards MyCards { get; set; }
+        public MyCards MyCards { get; set; } = new MyCards();
         public static List<Card> Cards { get; set; } = new List<Card>();
 
         public void Start()
